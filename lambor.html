@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Review</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .car-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .car-header h1 {
+            font-size: 32px;
+            color: #007bff;
+        }
+
+        .car-header .rating {
+            font-size: 16px;
+            background: #ffc107;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .car-image {
+    width: 80%; /* Adjust this percentage as needed */
+    max-width: 800px; /* Optional: Set a maximum width */
+    border-radius: 10px;
+    margin-bottom: 20px;
+        }
+
+        .car-details {
+            display: flex;
+            gap: 20px;
+        }
+
+        .details {
+            flex: 2;
+        }
+
+        .details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .specifications {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specifications h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .specifications ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .specifications ul li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specifications ul li span {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .call-to-action button {
+            background: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .call-to-action button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="car-header">
+            <h1>lamborghini v520</h1>
+            <div class="rating">Rating: 5/5</div>
+        </div>
+        <!-- รูปรถยนต์ที่ผู้สร้างเว็บไซต์เพิ่มไว้ -->
+        <img src="lambor.jpg" alt="ferrari" class="car-image">
+        <div class="car-details">
+            <div class="details">
+                <h2>Overview</h2>
+                <p>
+                    เป็นการพัฒนาร่วมกันระหว่างแผนกมอเตอร์สปอร์ต Squadra Corse และแผนกดีไซน์ Centro Stlie ใน Sant'Agata Bolognese ตัวถังใช้วัสดุคาร์บอนไฟเบอร์ มาในเวอร์ชั่นเปลือยหลังคา ใช้สีขาว Bianco Fu ตัดด้วยเส้นน้ำเงิน Blu Cepheus แม้ไม่มีหลังคาแต่ตัวรถมีการไหลเวียนอากาศที่ดีเยี่ยม จึงช่วยลดเสียงลม และลดแรงลมปะทะคนขับขณะวิ่งความเร็วสูงได้ดี ส่วนหน้าของรถดุดันมาด้วยช่องลมต่างๆ ในสไตล์รถแข่ง Huracán GT3 EVO ถัดมามองด้านข้างจะคล้ายคลึงกับรุ่น Essenza SCV12 และด้านหลังใช้งานดีไซน์ใหม่ ไฟท้าย 6 เหลี่ยมทรงล้ำ โดดเด่นด้วยปีกคาร์บอนไฟเบอร์ขนาดใหญ่ ที่สามารถตั้งค่าได้ 3 ระดับ Low, Medium และ High Load                <p>
+                        ภายในห้องโดยสารหล่อไม่แพ้ภายนอก ด้วยการหุ้มหนัง Alcantara เฉดสีเดียวกับภายนอกสลับกับดำ Nero Cosmus และสีขาว Bianco Leda คาร์บอนไฟเบอร์ถูกใช้บริเวณฝาครอบแผงหน้าปัด, คอนโซลกลาง, แผงข้างประตู, เบาะนั่ง และส่วนมือจับประตู และช่องแอร์เลือกใช้อลูมิเนียมที่ทำจาก  3D printing
+
+                        ด้านขุมพลังนำมาจากลูกพี่ใหญ่ Aventador SVJ รูปแบบ V12 N/A ไร้ระบบอัดอากาศ ขนาด 6.5 ลิตร ทำกำลังสูงสุด 770 แรงม้า ที่ 8,500 รอบ/นาที แรงบิดสูงสุด 720 นิวตัน-เมตร ที่ 6,750 รอบ/นาที อัตราเร่ง 0-100 กม./ชม. ในเวลา 2.8 วินาที  และทำความเร็วสูงสุดที่ 350 กม./ชม. มาพร้อมระบบขับเคลื่อนสี่ล้อ ระบบเกียร์เป็นแบบอัตโนมัติ ISR 7 สปีด  ทำงานได้ไวสุดๆ                </p>
+            </div>
+            <div class="specifications">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Price: <span>$159,000</span></li>
+                    <li>Range: <span>389 miles</span></li>
+                    <li>Top Speed: <span>340mph</span></li>
+                    <li>0-60 mph: <span>1.8 seconds</span></li>
+                    <li>Seating Capacity: <span>2</span></li>
+                    <li>Drivetrain: <span>All-Wheel Drive</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="call-to-action">
+            <a href="index.html">
+                <button>Home page</button>
+            </a>
+        </div>
+</body>
+</html>

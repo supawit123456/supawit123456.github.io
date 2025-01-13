@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Review</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .car-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .car-header h1 {
+            font-size: 32px;
+            color: #007bff;
+        }
+
+        .car-header .rating {
+            font-size: 16px;
+            background: #ffc107;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .car-image {
+    width: 80%; /* Adjust this percentage as needed */
+    max-width: 800px; /* Optional: Set a maximum width */
+    border-radius: 10px;
+    margin-bottom: 20px;
+        }
+
+        .car-details {
+            display: flex;
+            gap: 20px;
+        }
+
+        .details {
+            flex: 2;
+        }
+
+        .details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .specifications {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specifications h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .specifications ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .specifications ul li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specifications ul li span {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .call-to-action button {
+            background: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .call-to-action button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="car-header">
+            <h1><i></i>Porsche 718 cayman</h1>
+            <div class="rating">Rating: 5/5</div>
+        </div>
+        <!-- รูปรถยนต์ที่ผู้สร้างเว็บไซต์เพิ่มไว้ -->
+        <img src="porche.jpg" alt="ferrari" class="car-image">
+        <div class="car-details">
+            <div class="details">
+                <h2>Overview</h2>
+                <p>
+                    หลังจากที่ค่ายรถสปอร์ตจาก Stuttgart อย่าง Porsche ได้ปรับโฉม Boxster เป็น 718 Boxster
+                    แล้วก็ได้เวลาปรับโฉมน้องคนรองอย่าง Cayman ให้เป็นแฝดคนละฝาด้วยการเปลี่ยนเป็น 718
+                    Cayman เช่นกันซึ่งที่มานั้นก็มาจาก Boxster เช่นกันที่ตั้งชื่อตามรถแข่ง 718 ซึ่งใช้เครื่องยนต์
+                    แบบ 4 สูบเทอร์โบเหมือนกัน สำหรับ 718 Cayman นั้นมีการปรับปรุงภายนอก ภายในและยก
+                    เครื่อง 6 สูบทิ้ง                            </p>
+                    <p>718 Cayman S ใช้เครื่องยนต์ 4 สูบ 2.5 ลิตรเทอร์โบวางกลาง ให้กำลังสูงสุด 355 แรงม้า (PS)
+                        ที่ 6,500 รอบ/ นาทีและแรงบิดสูงสุด 42.82 กก-ม. (420 นิวตันเมตร) ที่ 1,900-4,500 รอบ/ นาที
+                        ทำงานร่วมกับเกียร์ธรรมดา 6 จังหวะหรืออัตโนมัติ PDK 7 จังหวะส่งกำลังผ่านล้อหลังให้อัตราเร่ง
+                        0-100 กิโลเมตร/ ชั่วโมงภายใน 4.6 และ 4.4 วินาทีตามลำดับเกียร์ธรรมดาและ PDK ส่วนความ
+                        เร็วสูงสุดอยู่ที่ 285 กิโลเมตร/ ชั่วโมง</p>
+            </div>
+            <div class="specifications">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Price: <span>$99,000</span></li>
+                    <li>Range: <span>320 miles</span></li>
+                    <li>Top Speed: <span>285 mph</span></li>
+                    <li>0-60 mph: <span>2.5 seconds</span></li>
+                    <li>Seating Capacity: <span>2</span></li>
+                    <li>Drivetrain: <span>All-Wheel Drive</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="call-to-action">
+            <a href="index.html">
+                <button>Home page</button>
+            </a>
+        </div>
+</body>
+</html>

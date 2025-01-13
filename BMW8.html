@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Review</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .car-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .car-header h1 {
+            font-size: 32px;
+            color: #007bff;
+        }
+
+        .car-header .rating {
+            font-size: 16px;
+            background: #ffc107;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .car-image {
+    width: 80%; /* Adjust this percentage as needed */
+    max-width: 800px; /* Optional: Set a maximum width */
+    border-radius: 10px;
+    margin-bottom: 20px;
+        }
+
+        .car-details {
+            display: flex;
+            gap: 20px;
+        }
+
+        .details {
+            flex: 2;
+        }
+
+        .details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .specifications {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specifications h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .specifications ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .specifications ul li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specifications ul li span {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .call-to-action button {
+            background: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .call-to-action button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="car-header">
+            <h1><i></i>BMW 8-series coupe</h1>
+            <div class="rating">Rating: 5/5</div>
+        </div>
+        <!-- รูปรถยนต์ที่ผู้สร้างเว็บไซต์เพิ่มไว้ -->
+        <img src="BMW8.jpg" alt="ferrari" class="car-image">
+        <div class="car-details">
+            <div class="details">
+                <h2>Overview</h2>
+                <p>
+                    เครื่องยนต์เบนซิน V8 สูบ 32 วาล์ว ขนาด 4.4 ลิตร 4,395 ซีซี. TwinPower Turbo (two TwinScroll Turbocharger) กระบอกสูบ x ระยะช่วงชัก : 88.3 x 89.0 มิลลิเมตร อัตราส่วนกำลังอัด 10.5 : 1 พละกำลังสูงสุด 530 แรงม้า ที่ 5,500 – 6,000 รอบ/นาที แรงบิดสูงสุด 750 นิวตันเมตร ที่ 1,800 – 4,600 รอบ/นาที จับคู่กับเกียร์อัตโนมัติ 8 จังหวะ Steptronic ขับเคลื่อน 4 ล้อ xDrive ปล่อย CO2 238 g./km.                           </p>
+                    <p>อัตราเร่ง 0-100 km/h ภายใน 3.7 วินาที
+                        ความเร็วสูงสุด Top Speed 250 km/h (locked)
+                        อัตราสิ้นเปลืองเชื้อเพลิงเฉลี่ย (Eco Sticker) 10.0 km/l
+                        </p>
+            </div>
+            <div class="specifications">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Price: <span>$109,000</span></li>
+                    <li>Range: <span>320 miles</span></li>
+                    <li>Top Speed: <span>285 mph</span></li>
+                    <li>0-60 mph: <span>2.5 seconds</span></li>
+                    <li>Seating Capacity: <span>2</span></li>
+                    <li>Drivetrain: <span>All-Wheel Drive</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="call-to-action">
+            <a href="index.html">
+                <button>Home page</button>
+            </a>
+        </div>
+</body>
+</html>

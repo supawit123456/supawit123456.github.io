@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Review</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .car-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .car-header h1 {
+            font-size: 32px;
+            color: #007bff;
+        }
+
+        .car-header .rating {
+            font-size: 16px;
+            background: #ffc107;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .car-image {
+    width: 80%; /* Adjust this percentage as needed */
+    max-width: 800px; /* Optional: Set a maximum width */
+    border-radius: 10px;
+    margin-bottom: 20px;
+        }
+
+        .car-details {
+            display: flex;
+            gap: 20px;
+        }
+
+        .details {
+            flex: 2;
+        }
+
+        .details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .specifications {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specifications h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .specifications ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .specifications ul li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specifications ul li span {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .call-to-action button {
+            background: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .call-to-action button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="car-header">
+            <h1>Ferrari 488 Superfast</h1>
+            <div class="rating">Rating: 5/5</div>
+        </div>
+        <!-- รูปรถยนต์ที่ผู้สร้างเว็บไซต์เพิ่มไว้ -->
+        <img src="ferrari.jpg" alt="ferrari" class="car-image">
+        <div class="car-details">
+            <div class="details">
+                <h2>Overview</h2>
+                <p>
+                    Ferrari 488 Superfast ได้รับการออกแบบใหม่ทั้งหมด และยังคงเน้นย้ำความเป็นรถสปอร์ตที่คงความเรียบอย่างคลาสสิก เส้นสายที่ชัดเจนตามแบบของเฟอร์รารี่ สะท้อนให้เห็นถึงเอกลักษณ์ในอดีต ด้วยแรงบันดาลใจของปีกที่มีรูปแบบโดดเด่นจาก เฟอร์รารี่ 308 ซึ่งถือเป็นเฟอร์รารี่รุ่นแรกที่ติดตั้งเครื่องยนต์ V8 แบบวางกลาง ที่เคยโด่งดังในอดีตเมื่อกว่า 40 ปีที่แล้ว สำหรับตัวเลข 488 ของรถยนต์คันนี้บ่งชี้ถึงหน่วยของเครื่องยนต์ ในขณะที่ชื่อ "GTB" นั้น ย่อมาจากภาษาอิตาลี คือ "Gran Turismo Berlinetta" อันเป็นชื่อที่เป็นเอกลักษณ์ของเฟอร์รารี่ ด้วยเครื่องยนต์ขนาด 4.0 ลิตร V8 DOHC 32 วาล์ว Turbo ให้แรงม้าสูงสุดถึง 670 แรงม้า วางเครื่องกลางด้านหลัง ทำความเร็วได้สูงสุดถึง 330 กม./ชม.                </p>
+                <p>
+                    Ferrari 488 Superfast ให้ประสิทธิภาพสูงสุดบนสนามแข่งที่ผู้ขับขี่สามารถสนุกสนานกับการขับเคลื่อนอย่างเต็มที่แม้ว่าจะเป็นมือสมัครเล่น หรือผู้ขับขี่ที่ใช้งานในชีวิตประจำวัน นวัตกรรมใหม่ของ Ferrari 488 Superfast ที่มีการผสานนวัตกรรมของฟอร์มูล่าวัน บวกกับสุดยอดสมรรถนะอันทนทานของเครื่องยนต์จะสร้างสุนทรีย์แห่งการขับขี่แก่กลุ่มผู้รักรถสปอร์ตสายพันธุ์แท้อย่างแน่นอน
+                </p>
+            </div>
+            <div class="specifications">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Price: <span>$109,000</span></li>
+                    <li>Range: <span>396 miles</span></li>
+                    <li>Top Speed: <span>330 mph</span></li>
+                    <li>0-60 mph: <span>2.3 seconds</span></li>
+                    <li>Seating Capacity: <span>2</span></li>
+                    <li>Drivetrain: <span>All-Wheel Drive</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="call-to-action">
+            <a href="index.html">
+                <button>Home page</button>
+            </a>
+        </div>
+</body>
+</html>

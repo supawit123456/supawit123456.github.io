@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Review</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .car-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .car-header h1 {
+            font-size: 32px;
+            color: #007bff;
+        }
+
+        .car-header .rating {
+            font-size: 16px;
+            background: #ffc107;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .car-image {
+    width: 80%; /* Adjust this percentage as needed */
+    max-width: 800px; /* Optional: Set a maximum width */
+    border-radius: 10px;
+    margin-bottom: 20px;
+        }
+
+        .car-details {
+            display: flex;
+            gap: 20px;
+        }
+
+        .details {
+            flex: 2;
+        }
+
+        .details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .specifications {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specifications h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .specifications ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .specifications ul li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specifications ul li span {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .call-to-action button {
+            background: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .call-to-action button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="car-header">
+            <h1>Chevrolet Camaro ZA100</h1>
+            <div class="rating">Rating: 4.8/5</div>
+        </div>
+        <!-- รูปรถยนต์ที่ผู้สร้างเว็บไซต์เพิ่มไว้ -->
+        <img src="camaro.jpg" alt="Chevrolet Camaro" class="car-image">
+        <div class="car-details">
+            <div class="details">
+                <h2>Overview</h2>
+                <p>
+                    เหล่านักขับขาซิ่งเตรียมตัวให้พร้อม! มาสัมผัสกับตำนานบทใหม่อันร้อนแรงของรถสปอร์ตอเมริกันที่โด่งดังไปทั่วโลก Chevrolet Camaro มากกว่าแค่รถ แต่คือสัญลักษณ์ของความอิสระ พลัง และความท้าทาย ดีไซน์อันเป็นเอกลักษณ์ สมรรถนะที่เหนือชั้น และเทคโนโลยีล้ำสมัย พร้อมมอบประสบการณ์การขับขี่ที่เร้าใจ ปลุกไฟนักซิ่งในตัวคุณให้ลุกโชน
+                </p>
+                <p>
+                    Chevrolet Camaro ผ่านร้อนผ่านหนาวมาแล้วหลายเจนเนอเรชั่น แต่ละรุ่นต่างมีเอกลักษณ์และเสน่ห์ดึงดูดผู้รักความเร็วไม่ซ้ำใคร Camaro
+
+รุ่นไหนเหมาะกับคุณ? ขึ้นอยู่กับความชอบและสไตล์การขับขี่ของคุณ ไม่ว่าจะรุ่นไหนเชฟโรเลต คามาโรยังคงเป็นตำนานรถสปอร์ตอเมริกันที่ครองใจผู้รักความเร็วทั่วโลก
+                </p>
+            </div>
+            <div class="specifications">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Price: <span>$54,900</span></li>
+                    <li>Range: <span>396 miles</span></li>
+                    <li>Top Speed: <span>280 mph</span></li>
+                    <li>0-60 mph: <span>2.1 seconds</span></li>
+                    <li>Seating Capacity: <span>4</span></li>
+                    <li>Drivetrain: <span>All-Wheel Drive</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="call-to-action">
+            <a href="index.html">
+                <button>Home page</button>
+            </a>
+        </div>
+</body>
+</html>

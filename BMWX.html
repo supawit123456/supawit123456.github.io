@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Review</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .car-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .car-header h1 {
+            font-size: 32px;
+            color: #007bff;
+        }
+
+        .car-header .rating {
+            font-size: 16px;
+            background: #ffc107;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .car-image {
+    width: 80%; /* Adjust this percentage as needed */
+    max-width: 800px; /* Optional: Set a maximum width */
+    border-radius: 10px;
+    margin-bottom: 20px;
+        }
+
+        .car-details {
+            display: flex;
+            gap: 20px;
+        }
+
+        .details {
+            flex: 2;
+        }
+
+        .details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .specifications {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specifications h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .specifications ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .specifications ul li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specifications ul li span {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .call-to-action button {
+            background: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .call-to-action button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="car-header">
+            <h1>BMW X serie-6</h1>
+            <div class="rating">Rating: 4.7/5</div>
+        </div>
+        <!-- รูปรถยนต์ที่ผู้สร้างเว็บไซต์เพิ่มไว้ -->
+        <img src="BMWX.jpg" alt="ferrari" class="car-image">
+        <div class="car-details">
+            <div class="details">
+                <h2>Overview</h2>
+                <p>
+                    BMW X6 โฉมใหม่ ผสานรวมขีดสุดความเร้าใจสไตล์สปอร์ตกับดีไซน์ดุดันทรงพลังและอุปกรณ์สุดหรูหราไว้เป็นหนึ่งเดียว:
+
+
+                    •เครื่องยนต์สันดาปภายใน BMW TwinPower Turbo 6 สูบให้ความแรงถึง 280 กิโลวัตต์ (381 แรงม้า)
+                    •สัมผัสความสบายเต็มเปี่ยมในการเดินทางด้วยเกียร์สปอร์ตสเต็ปโทรนิก 8 สปีด
+                    •รูปลักษณ์ทรงพลังสะกดสายตาด้วยกระจังหน้าไตคู่เรืองแสง BMW "Iconic Glow" ชุดแต่ง M Sport Pro ที่ติดตั้งมาให้เป็นอุปกรณ์มาตรฐาน
+                    •อัดแน่นด้วยเทคโนโลยีล้ำสมัยและวัสดุคุณภาพสูงอย่าง ส่วนควบคุมประดับแก้ว "CraftedClarity“
+                    
+                    
+                    BMW X6 xDrive40i M Sport:
+                    ความสิ้นเปลืองน้ำมันเชื้อเพลิง, NEDC แบบผสมเป็นหน่วย กม./ลิตร .: 11.5
+                    การปล่อย CO2, NEDC แบบผสมเป็นหน่วยกรัม/กม.: 198                                   <p>
+                </p>
+            </div>
+            <div class="specifications">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Price: <span>$79,000</span></li>
+                    <li>Range: <span>320 miles</span></li>
+                    <li>Top Speed: <span>223 mph</span></li>
+                    <li>0-60 mph: <span>3.5 seconds</span></li>
+                    <li>Seating Capacity: <span>4</span></li>
+                    <li>Drivetrain: <span>All-Wheel Drive</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="call-to-action">
+            <a href="index.html">
+                <button>Home page</button>
+            </a>
+        </div>
+</body>
+</html>

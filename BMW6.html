@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Review</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .car-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .car-header h1 {
+            font-size: 32px;
+            color: #007bff;
+        }
+
+        .car-header .rating {
+            font-size: 16px;
+            background: #ffc107;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .car-image {
+    width: 80%; /* Adjust this percentage as needed */
+    max-width: 800px; /* Optional: Set a maximum width */
+    border-radius: 10px;
+    margin-bottom: 20px;
+        }
+
+        .car-details {
+            display: flex;
+            gap: 20px;
+        }
+
+        .details {
+            flex: 2;
+        }
+
+        .details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .specifications {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specifications h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .specifications ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .specifications ul li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specifications ul li span {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .call-to-action button {
+            background: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .call-to-action button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="car-header">
+            <h1>BMW 6 series Gran Coupe</h1>
+            <div class="rating">Rating: 4.7/5</div>
+        </div>
+        <!-- รูปรถยนต์ที่ผู้สร้างเว็บไซต์เพิ่มไว้ -->
+        <img src="BMW6.jpg" alt="Chevrolet Camaro" class="car-image">
+        <div class="car-details">
+            <div class="details">
+                <h2>Overview</h2>
+                <p>
+                    บีเอ็มดับเบิลยู ซีรีส์ 6 แกรน ทัวริสโมพร้อมสร้างความประทับใจด้วยรูปทรงอันเป็นเอกลักษณ์เฉพาะที่ผสมผสานเข้ากับห้องโดยสารภายในอันหรูหราอย่างลงตัว ด้วยคุณสมบัติในการขับขี่ที่เหนือชั้นยิ่งเป็นการการันตีถึงสมรรถนะการทำงานแบบสปอร์ตที่พร้อมให้ความสะดวกสบายอย่างเต็มที่ในการขับขี่บนเส้นทางอันยาวไกล ยนตรกรรมที่เป็นดั่งนิยามของความเร้าใจ ด้วยดีไซน์อันทันสมัยและรูปแบบความสนุกในการขับขี่สไตล์แกรนด์ทัวร์                </p>
+                <p>
+                    ด้วยหลังคาที่โค้งมนและท่าทางที่แข็งแกร่ง Gran Coupe ซ่อนประตูหลังคู่หนึ่งไว้ในขณะที่ยังคงรูปลักษณ์สปอร์ตของรถสองประตูซึ่งเป็นพื้นฐานของรถรุ่นนี้ เครื่องยนต์เทอร์โบ 3.0 ลิตร 6 สูบแถวเรียง 315 แรงม้า หรือเครื่องยนต์ V-8 4.4 ลิตร เทอร์โบคู่ 445 แรงม้า ส่งกำลังไปยังล้อหลังหรือทั้งสี่ล้อผ่านเกียร์อัตโนมัติแปดสปีด ตัวถังที่สมดุลและพวงมาลัยที่ถ่วงน้ำหนักได้ดีทำให้รถคันนี้เป็นที่ชื่นชอบของผู้ขับขี่ เลือกใช้รุ่น Alpina แล้วคุณจะเพลิดเพลินไปกับกำลังที่เพิ่มขึ้นเป็น 600 แรงม้า ระบบขับเคลื่อนสี่ล้อ และห้องโดยสารที่หรูหรายิ่งขึ้น
+                </p>
+            </div>
+            <div class="specifications">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Price: <span>$89,900</span></li>
+                    <li>Range: <span>340 miles</span></li>
+                    <li>Top Speed: <span>270 mph</span></li>
+                    <li>0-60 mph: <span>2.1 seconds</span></li>
+                    <li>Seating Capacity: <span>4</span></li>
+                    <li>Drivetrain: <span>All-Wheel Drive</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="call-to-action">
+            <a href="index.html">
+                <button>Home page</button>
+            </a>
+        </div>
+</body>
+</html>
